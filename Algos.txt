@@ -1,1 +1,7 @@
 #NH- No Help taked during, H - Help Taken during thinking, F- help taken for fixing
+
+
+Floyd's Cycle-Finding Algo(Tortise and Hare) - Week 2 Q4
+
+
+Which Algo? - Sort wihtout any extra space - Week 2 Q5
