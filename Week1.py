@@ -1,4 +1,3 @@
-
 #%% 1. Reverse the array; In place- cannot do what is done here(F)
 arr = [1, 2, 3, 4, 5, 6, 7]
 
@@ -72,12 +71,12 @@ while j < len(b):
 print(c)
 
 
-#%% 4. Finding the max element
+#%% 5. Finding the max element
 #Optimized method
 
 
 
-#%% 5. Rotate the array clockwise (NH)
+#%% 6. Rotate the array clockwise (NH)
 arr = [1, 2, 3, 4, 5]
 
 last_element = arr.pop()
@@ -85,7 +84,7 @@ arr.insert(0, last_element)
 print(arr)
 
 
-#%% 6. Find the max subarray in a mixed array (NH-Memory)(DO Algorithm)
+#%% 7. Find the max subarray in a mixed array (NH-Memory)(DO Algorithm)
 
 arr = [2, 3, -8, 7, -1, 2, 3]
 cur = arr[0]
@@ -99,7 +98,7 @@ print(cur)
 
 #HW
 
-#%% 7- Find a value's index in a given sorted array (O(logn)-Binary Search)(H)
+#%% 8- Find a value's index in a given sorted array (O(logn)-Binary Search)(H)
 
 
 def add_target(newlst, target):
@@ -138,7 +137,7 @@ print(lst_search(lst, target_value))
 #         print("Index",i)
     
     
-#%% 8- Return the indices of the numbers that are adding up to the target value;
+#%% 9- Return the indices of the numbers that are adding up to the target value;
 #Exactly one solution- no same element twice, and if i + j then not j + i (F- removed break)
 
 nums = [2,7,11,15]
@@ -152,7 +151,7 @@ for i in range(len(nums)):
 
 
 
-#%% 9- Every value jumps the index; the value is 2 so it  make jump of 2 index which lands on 4
+#%% 10- Every value jumps the index; the value is 2 so it  make jump of 2 index which lands on 4
 # F
 
 arr = [1, 3, 5, 8, 9, 2, 6, 7, 6, 8, 9]
@@ -167,14 +166,4 @@ for i in range(0, len(arr), step):
     
     print(arr[i])
     step = arr[i]
-
-
-
-
-
-
-
-
-
-
 
